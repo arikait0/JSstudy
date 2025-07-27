@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang=""jp">
+<head>
+    <meta charset="UTF-8">
+    <title>解説サイト</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="site-header">
+        <h1>JavaScipt解説サイト</h1>
+    </header>
+    <main>
+        <dev >
+            <h2 class="site-title">JavaScriptとは？</h2>
+            <p class="site-p">JavaScriptは、ウェブページに動的な要素を追加するためのプログラミング言語です。</p>
+        </dev>
+        <dev>
+            <h2 class="site-title">基本的な文法<hr class="title-line"></h2>
+            <p class="site-p">JavaScriptの基本的な書き方について紹介していきます。</p>
+            <h2 class="site-subtitle">変数の宣言</h2>
+            <p class="site-p">変数は、データを保存するための名前付きの場所です。
+                JavaScriptでは、<strong>let const var</strong>を使って変数を宣言します。</br>
+            <img src="img\image.png" alt="変数の宣言" class="site-img"></p>
+            <h3 class="site-subtitle">let</h3>
+            <p class="site-p">letは、ブロックスコープを持つ変数を宣言することができます。<br>
+                    {}または()の内側で宣言された変数は、ブロックで囲まれた範囲内でのみ有効です。そのため、外側から参照することはできません。<br>
+                    ブロックスコープの範囲内であれば、変数の値は後で変更することができます。しかし、同じブロック内で再宣言することはできません。<br>
+                    また、letで宣言するより前に変数にアクセスしようとすると、ReferenceErrorが発生します。
+                </p>
+            </p>
+            <h3 class="site-subtitle">const</h3>
+            <p class="site-p">constは、letと同様にブロックスコープを持つ変数を宣言することができます。<br>
+                    ただし、constで宣言された変数は再代入することができません。つまり、一度値を設定すると、その値を変更することはできません。<br>
+                    先程と同様、再宣言することもできません。また、宣言するよりも前に変数にアクセスしようとすると、ReferenceErrorが発生します。<br>
+            </p>
+            <h3 class="site-subtitle">var</h3>
+            <p class="site-p">varは、letやconstと違い{}と()の範囲外からもアクセスすることができる変数を宣言します。<br>
+                    varで宣言された変数は同じブロック内であっても再代入や再宣言することができます。<br>
+                    また、varで宣言された変数は、宣言するよりも前にアクセスしようとすると、undefinedが返されます。<br>
+                    varは古くから使われていて、関数の外側からアクセスできることから予期せぬバグに繋がりやすいため、現在ではletやconstの使用が推奨されています。</p>
+            </p>
+        </dev>
+        <dev>
+            <h2 class="site-title">イベントハンドリング<hr class="title-line"></h2>
+            <p class="site-p">ユーザーの操作に応じて動作を変える方法を学びます。</p>
+        </dev>
+</body>
+</html> 
