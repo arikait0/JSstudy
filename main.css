@@ -14,12 +14,22 @@ main {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+h1{ 
+    text-align: left;
+    display:inline; 
+}
+
 .site-header {
     background-color: #f8f9fa;
     padding: 20px;
     margin: 0px auto;
-    text-align: center;
 }
+#onbtn{
+    padding:10px;
+    margin: 10px;
+    font-size: 5cqmin;
+}
+
 .title-line {
     border: 1px solid gray; 
     width: 100%;
